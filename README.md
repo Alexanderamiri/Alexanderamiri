@@ -5,7 +5,7 @@
 - 🌱 I’m currently learning: *Introduction to Numerical Analysis* [MAT3110], *Structures and Arguments* [MAT1140] and *Algorithms and Data Structures* [IN2010] at the University of Oslo 
 - 💬 Ask me about cosmology anytime anyday, I'll talk for hours!
 - 📫 How to reach me: Alexanderamiri@hotmail.com , [Linkedin] or [Facebook]
-- ⚡ Fun fact: The light from the sun is several millions years old! Thats because it takes a lot of colliding from the creation of the photon in the core of the sun to get out of the sun's plasma :sun_with_face:
+- ⚡ Fun fact: The light from the sun is several million years old! That's because it takes a lot of colliding from the creation of the photon inside the core of the sun to get out of the sun's plasma :sun_with_face:
 
 
 ### About my GitHub
