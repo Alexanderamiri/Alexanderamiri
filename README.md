@@ -20,18 +20,11 @@ In my Golden-voyage repository you will find mostly python with some java and c+
 <img align="left" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
 <img align="left" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
 <img align="left" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
-
-
-
 <img align="left" height="32" width="32" src="https://simpleicons.org/icons/visualstudio.svg" />
-
 <img align="left" height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/intellijidea.svg" />
+<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pycharm.svg" />&nbsp;
 
-<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pycharm.svg" />
-
-<br />
-<br />
-
+  
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=alimathers&cover_image=false)](https://github.com/kittinan/spotify-github-profile)
 
 [Linkedin]: https://www.linkedin.com/in/alexander-amiri-43256619b/
