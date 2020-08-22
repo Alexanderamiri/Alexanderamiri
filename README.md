@@ -24,6 +24,9 @@ In my Golden-voyage repository you will find mostly python with some java and c+
 <img align="left" height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/intellijidea.svg" />
 <img align="left" height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pycharm.svg" />&nbsp;
 
+<br>
+<br>
+<br>
   
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=alimathers&cover_image=false)](https://github.com/kittinan/spotify-github-profile)
 
