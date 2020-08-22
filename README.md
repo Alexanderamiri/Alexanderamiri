@@ -30,7 +30,7 @@ In my Golden-voyage repository you will find mostly python with some java and c+
 <br>
 <br>
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=alimathers&cover_image=false)](https://github.com/kittinan/spotify-github-profile)
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=alimathers&cover_image=true)](https://github.com/kittinan/spotify-github-profile)
 
 [Linkedin]: https://www.linkedin.com/in/alexander-amiri-43256619b/
 [Facebook]: https://www.facebook.com/DagAlexander
