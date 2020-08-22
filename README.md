@@ -1,11 +1,15 @@
 ### Hi there, I'm Alexander Amiri👋
 
-## I'm a physics graduate pursuing two more bachlors in pure maths along with robotics and intelligent systems
+## I'm a physics graduate pursuing two more bachelor's in pure maths along with robotics and intelligent systems
 - 🔭 I’m currently working on improving connectivity to my home server
 - 🌱 I’m currently learning: *Introduction to Numerical Analysis* [MAT3110], *Structures and Arguments* [MAT1140] and *Algorithms and Data Structures* [IN2010] at the University of Oslo 
 - 💬 Ask me about cosmology anytime anyday, I'll talk for hours
 - 📫 How to reach me: Alexanderamiri@hotmail.com , [Linkedin] or [Facebook]
-- ⚡ Fun fact: 
+- ⚡ Fun fact:
+
+
+### About my GitHub
+In my Golden-voyage repository you will find mostly python with some java and c++ code I've written over the course of my physics bachelor degree. It's mostly dense numerical analysis ranging from a couple of dozen lines to a couple of hundred.
 
 
 
