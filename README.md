@@ -11,21 +11,21 @@
 
 ### Languages and Tools:
 
-<img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>
-<img src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
-<img src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
-<img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+<img align="left" src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white"/>
+<img align="left" src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>
+<img align="left" src="https://img.shields.io/badge/c%23%20-%23239120.svg?&style=for-the-badge&logo=c-sharp&logoColor=white"/>
+<img align="left" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
+<img align="left" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
 
 
 
-<img height="32" width="32" src="https://simpleicons.org/icons/visualstudio.svg" />
+<img align="left" height="32" width="32" src="https://simpleicons.org/icons/visualstudio.svg" />
 
-<img height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/intellijidea.svg" />
+<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/intellijidea.svg" />
 
-<img height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pycharm.svg" />
+<img align="left" height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pycharm.svg" />
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=alimathers&cover_image=true)](https://github.com/kittinan/spotify-github-profile)
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=alimathers&cover_image=false)](https://github.com/kittinan/spotify-github-profile)
 
 [Linkedin]: https://www.linkedin.com/in/alexander-amiri-43256619b/
 [Facebook]: https://www.facebook.com/DagAlexander
