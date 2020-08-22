@@ -18,6 +18,9 @@ Pycharm \
 InteliJ \
 Vistual Studio \ 
 
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=alimathers&cover_image=true)](https://github.com/kittinan/spotify-github-profile)
+
 [Linkedin]: https://www.linkedin.com/in/alexander-amiri-43256619b/
 [Facebook]: https://www.facebook.com/DagAlexander
 [MAT3110]: https://www.uio.no/studier/emner/matnat/math/MAT3110/index-eng.html
