@@ -9,7 +9,7 @@
 
 
 ### About my GitHub
-In my Golden-voyage repository you will find mostly python with some java and c++ code I've written over the course of my physics bachelor degree. It's mostly dense numerical analysis ranging from a couple of dozen lines to a couple of hundred.
+In my Golden-voyage repository you will find mostly python with some java and c++ code I've written over the course of my physics bachelor degree. It's mostly dense numerical analysis ranging from a couple of dozen to a couple of hundred lines of code.
 
 
 
