@@ -1,16 +1,11 @@
 ### Hi there, I'm Alexander Amiri👋
 
-## I'm a physics graduate pursuing two bachelor's in pure maths along with robotics and intelligent systems
-- 🔭 I’m currently working on improving connectivity to my home server
-- 🌱 I’m currently learning: *Introduction to Numerical Analysis* [MAT3110], *Structures and Arguments* [MAT1140] and *Algorithms and Data Structures* [IN2010] at the University of Oslo 
-- 💬 Ask me about cosmology anytime anyday, I'll talk for hours!
-- 📫 How to reach me: Alexanderamiri@hotmail.com , [Linkedin] or [Facebook]
-- ⚡ Fun fact: The light from the sun is several thousand years old! That's because it takes a lot of colliding from the creation of the photon inside the sun's core to get out of the sun's plasma :sun_with_face:
+#### In my Golden-voyage repository you will find mostly python with some java and c++ code I've written over the course of my physics bachelor degree. It's mostly dense numerical analysis ranging from a couple of dozen to a couple of hundred lines of code.
 
-
-### About my GitHub
-In my Golden-voyage repository you will find mostly python with some java and c++ code I've written over the course of my physics bachelor degree. It's mostly dense numerical analysis ranging from a couple of dozen to a couple of hundred lines of code.
-
+-  I’m currently working on improving connectivity to my home server
+- I’m currently learning: *Introduction to Numerical Analysis* [MAT3110], *Structures and Arguments* [MAT1140] and *Algorithms and Data Structures* [IN2010] at the University of Oslo 
+-  How to reach me: Alexanderamiri@hotmail.com , [Linkedin] or [Facebook]
+-  Fun fact: The light from the sun is several thousand years old! That's because it takes a lot of colliding from the creation of the photon inside the sun's core to get out of the sun's plasma :sun_with_face:
 
 
 ### Languages and Tools:
@@ -29,8 +24,6 @@ In my Golden-voyage repository you will find mostly python with some java and c+
 <br>
 <br>
 <br>
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=alimathers&cover_image=true)](https://github.com/kittinan/spotify-github-profile)
 
 [Linkedin]: https://www.linkedin.com/in/alexander-amiri-43256619b/
 [Facebook]: https://www.facebook.com/DagAlexander
