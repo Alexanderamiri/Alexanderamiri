@@ -2,7 +2,7 @@
 
 #### In my Golden-voyage repository you will find mostly python with some java and c++ code I've written over the course of my physics bachelor degree. It's mostly dense numerical analysis ranging from a couple of dozen to a couple of hundred lines of code.
 
--  I’m currently working as a data scientist at [Nordea], previously at [NAV]
+-  I’m currently working as a data scientist at [Ruter]
 -  How to reach me: Alexanderamiri@hotmail.com , [Linkedin] or [Facebook]
 
 
@@ -25,6 +25,6 @@
 
 [Linkedin]: https://www.linkedin.com/in/alexander-amiri-43256619b/
 [Facebook]: https://www.facebook.com/DagAlexander
-[NAV]: https://www.nav.no/en/home/about-nav/what-is-nav
-[Nordea]: https://www.nordea.no/
+[Ruter]: https://ruter.no/
+
 
