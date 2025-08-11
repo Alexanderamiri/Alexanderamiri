@@ -1,8 +1,6 @@
 ### Hi there, I'm Alexander Amiri👋
 
-#### In my Golden-voyage repository you will find mostly python with some java and c++ code I've written over the course of my physics bachelor degree. It's mostly dense numerical analysis ranging from a couple of dozen to a couple of hundred lines of code.
-
--  I’m currently working as a data scientist at [Ruter]
+-  I’m currently working as a Machine learning engger at [Piano]
 -  How to reach me: Alexanderamiri@hotmail.com , [Linkedin] or [Facebook]
 
 
@@ -25,6 +23,6 @@
 
 [Linkedin]: https://www.linkedin.com/in/alexander-amiri-43256619b/
 [Facebook]: https://www.facebook.com/DagAlexander
-[Ruter]: https://ruter.no/
+[Piano]: https://piano.io
 
 
