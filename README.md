@@ -13,7 +13,6 @@
 <img align="left" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
 <img align="left" height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/pycharm.svg" />
 <img align="left" height="32" width="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/intellijidea.svg" />
-<img align="left" height="32" width="32" src="https://simpleicons.org/icons/visualstudio.svg" />&nbsp;
 
 
 <br>
