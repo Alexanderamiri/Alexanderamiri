@@ -1,7 +1,7 @@
 ### Hi there, I'm Alexander Amiri👋
 
 -  I’m currently working as a Ai Engineer at [Piano]
--  How to reach me: Alexanderamiri@hotmail.com , [Linkedin] or [Facebook]
+-  How to reach me: [Linkedin]
 
 
 ### Languages and Tools:
