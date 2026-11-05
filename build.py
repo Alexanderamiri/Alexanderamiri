@@ -57,8 +57,12 @@ def gql(query: str, variables: dict | None = None) -> dict:
     r = requests.post("https://api.github.com/graphql", json={"query": query, "variables": variables or {}}, headers=HEADERS, timeout=60)
     r.raise_for_status()
     data = r.json()
-    if "errors" in data:
-        raise RuntimeError(data["errors"])
+    if data.get("errors"):
+        # Partial results are fine when the only problem is a field the token may not read
+        # (the default Actions token cannot see private repos or some per-repo fields).
+        if not all(e.get("type") in ("FORBIDDEN", "NOT_FOUND") for e in data["errors"]) or not data.get("data"):
+            raise RuntimeError(data["errors"])
+        print("warning: partial GraphQL result:", {e["message"] for e in data["errors"]}, file=sys.stderr)
     return data["data"]
 
 
@@ -71,7 +75,7 @@ def user_summary() -> dict:
             followers { totalCount }
             repositories(ownerAffiliations: OWNER, first: 100) {
               totalCount
-              nodes { name isPrivate isFork stargazers { totalCount } }
+              nodes { name isPrivate isFork stargazerCount }
             }
             repositoriesContributedTo(first: 1, contributionTypes: [COMMIT, PULL_REQUEST, REPOSITORY, ISSUE]) { totalCount }
           }
@@ -83,8 +87,8 @@ def user_summary() -> dict:
         "created": dt.datetime.fromisoformat(data["createdAt"].replace("Z", "+00:00")),
         "followers": data["followers"]["totalCount"],
         "repos": data["repositories"]["totalCount"],
-        "repo_names": [r["name"] for r in repos if not r["isFork"]],
-        "stars": sum(r["stargazers"]["totalCount"] for r in repos),
+        "repo_names": [r["name"] for r in repos if r and not r["isFork"]],
+        "stars": sum(r.get("stargazerCount") or 0 for r in repos if r),
         "contributed": data["repositoriesContributedTo"]["totalCount"],
     }
 
