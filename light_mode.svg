@@ -1,72 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Liberation Mono', monospace" width="1223px" height="750px" font-size="16px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas, Menlo, 'DejaVu Sans Mono', 'Liberation Mono', monospace" width="1252px" height="530px" font-size="16px">
 <style>
 .key {fill: #953800;} .value {fill: #0a3069;} .add {fill: #1a7f37;} .dele {fill: #cf222e;} .cc {fill: #8c959f;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="1223px" height="750px" fill="#ffffff" rx="15"/>
+<rect width="1252px" height="530px" fill="#ffffff" rx="15"/>
 <text x="15" y="30" fill="#24292f" class="ascii">
-<tspan x="15" y="30"></tspan>
-<tspan x="15" y="50"></tspan>
-<tspan x="15" y="70">                       -</tspan>
-<tspan x="15" y="90">                 =*+#*##**#*#*=</tspan>
-<tspan x="15" y="110">                =@@%@%####%#%%@#+</tspan>
-<tspan x="15" y="130">              -#@%%@@%@%@@%%@@@@%#*</tspan>
-<tspan x="15" y="150">              #@#%@@%%@@@@@@@@@@@@@%-</tspan>
-<tspan x="15" y="170">             =#%@@@@@@@@@@@@@@@@@@@@%+</tspan>
-<tspan x="15" y="190">             *@@@%@%#%#*#*#*##@@@@@@%+</tspan>
-<tspan x="15" y="210">             @@@@@%==+++++++++%@@@@%%</tspan>
-<tspan x="15" y="230">             %@@@#-.::-=====+++*@@@@%=</tspan>
-<tspan x="15" y="250">             =@%@*==+*+===+**#**%@@@%+</tspan>
-<tspan x="15" y="270">              #@%-=*#%#+-+*#%#+=+@@@%</tspan>
-<tspan x="15" y="290">              +%+:-+*##=:=*%#*++-=%%*</tspan>
-<tspan x="15" y="310">              :%-.::==-::-=+++=--:%#-</tspan>
-<tspan x="15" y="330">               += .:==-.:--++=-::=#+.</tspan>
-<tspan x="15" y="350">               .+:-+**=+=+*+*+=--*+:</tspan>
-<tspan x="15" y="370">                -++%%*+*#####%#++=</tspan>
-<tspan x="15" y="390">                 *##+--=*++==%#**</tspan>
-<tspan x="15" y="410">                 .##*--=**==*#%#:</tspan>
-<tspan x="15" y="430">                  -*#*==+++*%@#=.</tspan>
-<tspan x="15" y="450">                  =-=#####%%#+-+:.</tspan>
-<tspan x="15" y="470">                  .*=-++***+=-*+</tspan>
-<tspan x="15" y="490">                +. :*+-==-=-=+*:. -</tspan>
-<tspan x="15" y="510">              =#%-=:.=+=====+*:.=:##</tspan>
-<tspan x="15" y="530">            =#%%%*--: :====++:.--=%#@#+</tspan>
-<tspan x="15" y="550">        +##%@@%#%%-::: .:=++..::-+@#%%@%</tspan>
-<tspan x="15" y="570">      =%@%%%%%%%#%=....  :=  ...:+@%%@%@#</tspan>
-<tspan x="15" y="590">    =#@@%%@@%@%%%@+:....   ..:..-+@#%%@%@@*=</tspan>
-<tspan x="15" y="610"> =@@@@%%@%@%@%@%%%#:. .    .....:+@%%%@%%%@@@@+</tspan>
-<tspan x="15" y="630">  @%%%@%@%@%@%@%%%%-..      . ...*%%%@%@@%%@%@=</tspan>
-<tspan x="15" y="650"> =@%@%@%@%%@%@%%%%@=.. ..   . ..:*@%%%@%@%@%@@+</tspan>
-<tspan x="15" y="670"> =@%%@%%%@%%@%@%%%%#.....      ::*@%%%@@%@@%@@=</tspan>
-<tspan x="15" y="690"> =@%%%@@%%%@%%@%%%%%:. ..    . .:%%%@@%@@%@@@@=</tspan>
-<tspan x="15" y="710"> =@@@%%@%@%%@%@@@@%@+....    .. =%@@%@@%@@@@%@+</tspan>
-<tspan x="15" y="730"> =@@%@%@%%@@%@@@%@%@#....   . ..=@%@@@@@@@@@@@=</tspan>
+<tspan x="15" y="30">:.:..: . ..::   ...:.:..:..::.::::-:  :--....:-::.</tspan>
+<tspan x="15" y="50">..:::...:::-... ....:::--:-::..::-:....:-:..--::..</tspan>
+<tspan x="15" y="70">.... :--:::....      .. ....    ...::----::---....</tspan>
+<tspan x="15" y="90"> . .-:::::. .  .                 .  .::---:.. .--.</tspan>
+<tspan x="15" y="110"> ::--:-::-::.                          .--: ...-=.</tspan>
+<tspan x="15" y="130"> ::-=-=---:. .       .  .  .           .: ...  .:.</tspan>
+<tspan x="15" y="150">.-::---==-.      .--.:::::::-:.        .  :-   :-:</tspan>
+<tspan x="15" y="170">:++=-:==-..     -*#**+=-------::.     . ..-:.  :=:</tspan>
+<tspan x="15" y="190">::-=+=:.:=-.   .++==---===-:.::::     ...::::--::.</tspan>
+<tspan x="15" y="210">:-+=-:===:--   =+--. .:+==.. .:-+=.   . .:::-=:.:-</tspan>
+<tspan x="15" y="230">-::..:----::= =%**=-::=#*+::::=+=*#. :.::.....:-::</tspan>
+<tspan x="15" y="250">-::--::==---+:=@@%#+=*%@#*#=-=+*#%#..::---::-:==++</tspan>
+<tspan x="15" y="270">.:=-=----==::%-%@#*=-+##*++=-=+*#%=:-::-..:--=::-=</tspan>
+<tspan x="15" y="290">:...-==-:....-:+*=...=:.:..:...-++:.::-.:-:--:-:::</tspan>
+<tspan x="15" y="310">:-==--=-::==.  .-: :**+=--==+- ::::. ..:+==---===-</tspan>
+<tspan x="15" y="330">.:-==-..:=+-..  -:.:*%#+-:+++:  :==.:----====:--:.</tspan>
+<tspan x="15" y="350">----..::::::.  :@#=.:===---:. .=#%=:-==--:.::::.:-</tspan>
+<tspan x="15" y="370">::.::-=-.:-....+@*+*-:.......=*#-#@-:-::---:...--:</tspan>
+<tspan x="15" y="390">.:--++=+++-.::.+@%=-+*+====++*=:+%@%=-----:..:.::-</tspan>
+<tspan x="15" y="410">...::-:-===:.:.*@%@+-=+++**++=:*%#+@#.-:::.:-:-:::</tspan>
+<tspan x="15" y="430">-------:-:.. ..-%+#%#+===++++-+@##+%-..  ....:----</tspan>
+<tspan x="15" y="450">++=::.:...  . ..:*+*#@#*+-=-=#@%%*+= .  .  . . .::</tspan>
+<tspan x="15" y="470">:.. ..    .  ... -##%%@@@*-+%@%%%%*-  .          .</tspan>
+<tspan x="15" y="490">. ..   . . .  ...:*%%@@%@@%@@%%%@%*-  .</tspan>
+<tspan x="15" y="510">             .....*##%@@@@@@@%%@@%*+: .</tspan>
 </text>
-<text x="510" y="30" fill="#24292f">
-<tspan x="510" y="30"><tspan>alexander@amiri</tspan> -———————————————————————————————————————————————————-</tspan>
-<tspan x="510" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">macOS, Windows, Linux</tspan></tspan>
-<tspan x="510" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">5 years, 8 months, 4 days in AI</tspan></tspan>
-<tspan x="510" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">DNB - AI Engineers, AI Tech</tspan></tspan>
-<tspan x="510" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Senior AI Engineer / ex-astrophysicist</tspan></tspan>
-<tspan x="510" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Claude Code, Codex, VS Code, IntelliJ</tspan></tspan>
-<tspan x="510" y="150"><tspan class="cc">. </tspan></tspan>
-<tspan x="510" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Python, TypeScript, Java, Kotlin, SQL</tspan></tspan>
-<tspan x="510" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Frameworks</tspan>:<tspan class="cc"> .. </tspan><tspan class="value">FastAPI, LangGraph, LangChain, React, Remix</tspan></tspan>
-<tspan x="510" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">AWS, GCP, Kubernetes, Terraform, Docker, Kafka</tspan></tspan>
-<tspan x="510" y="230"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">Norwegian, English</tspan></tspan>
-<tspan x="510" y="250"><tspan class="cc">. </tspan></tspan>
-<tspan x="510" y="270"><tspan class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .. </tspan><tspan class="value">GenAI platforms, multi-agent systems, OSS forks</tspan></tspan>
-<tspan x="510" y="290"><tspan class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Community</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">javaBin/JavaZone board, Smidig board, speaker</tspan></tspan>
-<tspan x="510" y="310"><tspan class="cc">. </tspan><tspan class="key">Education</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">BSc Astrophysics, University of Oslo</tspan></tspan>
-<tspan x="510" y="330"></tspan>
-<tspan x="510" y="350"><tspan>- Contact</tspan> -—————————————————————————————————————————————————————————-</tspan>
-<tspan x="510" y="370"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">alex@alexanderamiri.com</tspan></tspan>
-<tspan x="510" y="390"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">alexander-amiri-43256619b</tspan></tspan>
-<tspan x="510" y="410"></tspan>
-<tspan x="510" y="430"><tspan>- GitHub Stats</tspan> -————————————————————————————————————————————————————-</tspan>
-<tspan x="510" y="450"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">5</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">26</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">5</tspan></tspan>
-<tspan x="510" y="470"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">19,696</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">5</tspan></tspan>
-<tspan x="510" y="490"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> . </tspan><tspan class="value">1,179,594</tspan> ( <tspan class="add">2,125,363</tspan><tspan class="add">++</tspan>, <tspan class="dele">945,769</tspan><tspan class="dele">--</tspan> )</tspan>
+<text x="539" y="30" fill="#24292f">
+<tspan x="539" y="30"><tspan>alexander@amiri</tspan> -———————————————————————————————————————————————————-</tspan>
+<tspan x="539" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">macOS, Windows, Linux</tspan></tspan>
+<tspan x="539" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">5 years, 8 months, 4 days in AI</tspan></tspan>
+<tspan x="539" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">DNB - AI Engineers, AI Tech</tspan></tspan>
+<tspan x="539" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Senior AI Engineer / ex-astrophysicist</tspan></tspan>
+<tspan x="539" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Claude Code, Codex, VS Code, IntelliJ</tspan></tspan>
+<tspan x="539" y="150"><tspan class="cc">. </tspan></tspan>
+<tspan x="539" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Python, TypeScript, Java, Kotlin, SQL</tspan></tspan>
+<tspan x="539" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Frameworks</tspan>:<tspan class="cc"> .. </tspan><tspan class="value">FastAPI, LangGraph, LangChain, React, Remix</tspan></tspan>
+<tspan x="539" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Infra</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">AWS, GCP, Kubernetes, Terraform, Docker, Kafka</tspan></tspan>
+<tspan x="539" y="230"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ................................. </tspan><tspan class="value">Norwegian, English</tspan></tspan>
+<tspan x="539" y="250"><tspan class="cc">. </tspan></tspan>
+<tspan x="539" y="270"><tspan class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Software</tspan>:<tspan class="cc"> .. </tspan><tspan class="value">GenAI platforms, multi-agent systems, OSS forks</tspan></tspan>
+<tspan x="539" y="290"><tspan class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Community</tspan>:<tspan class="cc"> ... </tspan><tspan class="value">javaBin/JavaZone board, Smidig board, speaker</tspan></tspan>
+<tspan x="539" y="310"><tspan class="cc">. </tspan><tspan class="key">Education</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">BSc Astrophysics, University of Oslo</tspan></tspan>
+<tspan x="539" y="330"></tspan>
+<tspan x="539" y="350"><tspan>- Contact</tspan> -—————————————————————————————————————————————————————————-</tspan>
+<tspan x="539" y="370"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Personal</tspan>:<tspan class="cc"> ............................ </tspan><tspan class="value">alex@alexanderamiri.com</tspan></tspan>
+<tspan x="539" y="390"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ................................ </tspan><tspan class="value">alexander-amiri-43256619b</tspan></tspan>
+<tspan x="539" y="410"></tspan>
+<tspan x="539" y="430"><tspan>- GitHub Stats</tspan> -————————————————————————————————————————————————————-</tspan>
+<tspan x="539" y="450"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">9</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">29</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">5</tspan></tspan>
+<tspan x="539" y="470"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">19,696</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">5</tspan></tspan>
+<tspan x="539" y="490"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> . </tspan><tspan class="value">1,212,588</tspan> ( <tspan class="add">2,158,369</tspan><tspan class="add">++</tspan>, <tspan class="dele">945,781</tspan><tspan class="dele">--</tspan> )</tspan>
 </text>
 </svg>
