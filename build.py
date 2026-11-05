@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import datetime as dt
 import html
+import json
 import os
 import re
 import sys
@@ -19,10 +20,18 @@ USER = os.environ.get("USER_NAME", "Alexanderamiri")
 TOKEN = os.environ.get("ACCESS_TOKEN") or os.environ.get("GITHUB_TOKEN")
 HEADERS = {"Authorization": f"bearer {TOKEN}"} if TOKEN else {}
 HERE = Path(__file__).parent
+CACHE = HERE / "cache" / "ghe_stats.json"
+# Work GitHub Enterprise (dnb.ghe.com). Commits there are already mirrored onto the github.com
+# contribution graph by the activity bridge, so from GHE we only add repos contributed to and
+# lines of code. Needs GHE_TOKEN; without it the last cached numbers are reused.
+GHE_HOST = os.environ.get("GHE_HOST", "dnb.ghe.com")
+GHE_USER = os.environ.get("GHE_USER", "Alexander-Amiri")
+GHE_TOKEN = os.environ.get("GHE_TOKEN")
+BRIDGE_REPOS = {"private-work-gitlab"}  # activity markers only, no real code
 CAREER_START = dt.date(2021, 3, 1)  # first data-scientist role (NAV)
 
 PROFILE = {
-    "OS": "macOS, Linux",
+    "OS": "macOS, Windows, Linux",
     "Host": "DNB - AI Engineers, AI Tech",
     "Kernel": "Senior AI Engineer / ex-astrophysicist",
     "IDE": "Claude Code, Codex, VS Code, IntelliJ",
@@ -36,7 +45,6 @@ PROFILE = {
 }
 CONTACT = {
     "Email.Personal": "alex@alexanderamiri.com",
-    "Email.Work": "Alexander.Amiri@dnb.no",
     "LinkedIn": "alexander-amiri-43256619b",
 }
 
@@ -53,8 +61,8 @@ RIGHT_W = 70  # characters available in the right column
 
 
 # ----------------------------------------------------------------------------- GitHub data
-def gql(query: str, variables: dict | None = None) -> dict:
-    r = requests.post("https://api.github.com/graphql", json={"query": query, "variables": variables or {}}, headers=HEADERS, timeout=60)
+def gql(query: str, variables: dict | None = None, api: str = "https://api.github.com", headers: dict | None = None) -> dict:
+    r = requests.post(f"{api}/graphql", json={"query": query, "variables": variables or {}}, headers=HEADERS if headers is None else headers, timeout=60)
     r.raise_for_status()
     data = r.json()
     if data.get("errors"):
@@ -87,7 +95,7 @@ def user_summary() -> dict:
         "created": dt.datetime.fromisoformat(data["createdAt"].replace("Z", "+00:00")),
         "followers": data["followers"]["totalCount"],
         "repos": data["repositories"]["totalCount"],
-        "repo_names": [r["name"] for r in repos if r and not r["isFork"]],
+        "repo_names": [r["name"] for r in repos if r and not r["isFork"] and r["name"] not in BRIDGE_REPOS],
         "stars": sum(r.get("stargazerCount") or 0 for r in repos if r),
         "contributed": data["repositoriesContributedTo"]["totalCount"],
     }
@@ -130,6 +138,60 @@ def lines_of_code(repo_names: list[str]) -> tuple[int, int]:
                 dele += -d
             break
     return add, dele
+
+
+def contributor_stats(api: str, headers: dict, full_name: str, login: str) -> tuple[int, int, int]:
+    """(commits, additions, deletions) by `login` in one repo via the contributors statistics endpoint."""
+    for _ in range(8):
+        r = requests.get(f"{api}/repos/{full_name}/stats/contributors", headers=headers, timeout=60)
+        if r.status_code == 202:
+            time.sleep(3)
+            continue
+        if r.status_code in (204, 403, 404, 422):
+            return 0, 0, 0
+        r.raise_for_status()
+        for c in r.json() or []:
+            if c.get("author") and c["author"]["login"].lower() == login.lower():
+                return c["total"], sum(w["a"] for w in c["weeks"]), sum(w["d"] for w in c["weeks"])
+        return 0, 0, 0
+    return 0, 0, 0
+
+
+def ghe_stats() -> dict:
+    """Repos contributed to and lines of code on the work GitHub Enterprise, cached in CACHE."""
+    if not GHE_TOKEN:
+        if CACHE.exists():
+            print(f"GHE_TOKEN unset; using cached {CACHE.name}", file=sys.stderr)
+            return json.loads(CACHE.read_text())
+        return {"contributed": 0, "add": 0, "dele": 0}
+    api = f"https://api.{GHE_HOST}"
+    headers = {"Authorization": f"bearer {GHE_TOKEN}"}
+    repos, cursor = [], None
+    while True:
+        d = gql(
+            """
+            query($login: String!, $cursor: String) {
+              user(login: $login) {
+                repositoriesContributedTo(first: 100, after: $cursor, contributionTypes: [COMMIT]) {
+                  totalCount nodes { nameWithOwner } pageInfo { hasNextPage endCursor }
+                }
+              }
+            }""",
+            {"login": GHE_USER, "cursor": cursor}, api=api, headers=headers,
+        )["user"]["repositoriesContributedTo"]
+        repos += [n["nameWithOwner"] for n in d["nodes"] if n]
+        if not d["pageInfo"]["hasNextPage"]:
+            break
+        cursor = d["pageInfo"]["endCursor"]
+    add = dele = 0
+    for full in repos:
+        _, a, dl = contributor_stats(api, headers, full, GHE_USER)
+        add += a
+        dele += dl
+    stats = {"contributed": len(repos), "add": add, "dele": dele, "updated": dt.date.today().isoformat()}
+    CACHE.parent.mkdir(exist_ok=True)
+    CACHE.write_text(json.dumps(stats, indent=2) + "\n")
+    return stats
 
 
 # ----------------------------------------------------------------------------- rendering
@@ -235,7 +297,10 @@ def main() -> None:
     summary = user_summary()
     commits = total_contributions(summary["created"])
     add, dele = lines_of_code(summary["repo_names"])
-    stats = {**summary, "commits": commits, "add": add, "dele": dele, "loc": add - dele}
+    ghe = ghe_stats()
+    add += ghe["add"]
+    dele += ghe["dele"]
+    stats = {**summary, "contributed": summary["contributed"] + ghe["contributed"], "commits": commits, "add": add, "dele": dele, "loc": add - dele}
     right = right_lines(stats)
     longest = max(len(re.sub(r"<[^>]+>", "", html.unescape(l))) for l in right)
     assert longest <= RIGHT_W + 2, f"right column overflows: {longest} > {RIGHT_W}"
