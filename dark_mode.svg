@@ -35,7 +35,7 @@ text, tspan {white-space: pre;}
 <text x="539" y="30" fill="#c9d1d9">
 <tspan x="539" y="30"><tspan>alexander@amiri</tspan> -———————————————————————————————————————————————————-</tspan>
 <tspan x="539" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> .......................................... </tspan><tspan class="value">macOS, Windows, Linux</tspan></tspan>
-<tspan x="539" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">5 years, 8 months, 10 days in AI</tspan></tspan>
+<tspan x="539" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ........................... </tspan><tspan class="value">5 years, 8 months, 11 days in AI</tspan></tspan>
 <tspan x="539" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .................................. </tspan><tspan class="value">DNB - AI Engineers, AI Tech</tspan></tspan>
 <tspan x="539" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">Senior AI Engineer / ex-astrophysicist</tspan></tspan>
 <tspan x="539" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> ......................... </tspan><tspan class="value">Claude Code, Codex, VS Code, IntelliJ</tspan></tspan>
@@ -55,7 +55,7 @@ text, tspan {white-space: pre;}
 <tspan x="539" y="410"></tspan>
 <tspan x="539" y="430"><tspan>- GitHub Stats</tspan> -————————————————————————————————————————————————————-</tspan>
 <tspan x="539" y="450"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">5</tspan> {<tspan class="key">Contributed</tspan>: <tspan class="value">26</tspan>} | <tspan class="key">Stars</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">5</tspan></tspan>
-<tspan x="539" y="470"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">19,700</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">5</tspan></tspan>
-<tspan x="539" y="490"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> . </tspan><tspan class="value">1,179,561</tspan> ( <tspan class="add">2,125,524</tspan><tspan class="add">++</tspan>, <tspan class="dele">945,963</tspan><tspan class="dele">--</tspan> )</tspan>
+<tspan x="539" y="470"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">19,706</tspan> | <tspan class="key">Followers</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">5</tspan></tspan>
+<tspan x="539" y="490"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> . </tspan><tspan class="value">1,179,561</tspan> ( <tspan class="add">2,125,528</tspan><tspan class="add">++</tspan>, <tspan class="dele">945,967</tspan><tspan class="dele">--</tspan> )</tspan>
 </text>
 </svg>
